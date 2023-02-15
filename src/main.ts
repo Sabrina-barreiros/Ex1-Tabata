@@ -27,7 +27,7 @@ let action = '-';
 let round =0;
 let second = 3;
 let intervalId =  setInterval(() => {
-  if (round <1) action = 'Prepare-se!';
+  if (round < 1) action = 'Prepare-se!';
   else if (round < 8) action = 'Feito!';
   else if (second > 10 ) action = 'Vamos lá!';
   else action = 'Descanso! Você merece (=';
